@@ -2,7 +2,7 @@ tableextension 50105 "Sales Header Ext" extends "Sales Header"
 {
     fields
     {
-        // Add changes to table fields here
+        // Number of Sales Order Lines
         field(50100; "No of SO Lines"; Integer)
         {
             Caption = 'No of SO Lines';
@@ -12,6 +12,7 @@ tableextension 50105 "Sales Header Ext" extends "Sales Header"
 
         }
 
+        // Total Unit Price
         field(50101; "Total Unit Price"; Decimal)
         {
             Caption = 'Total Unit Price';
